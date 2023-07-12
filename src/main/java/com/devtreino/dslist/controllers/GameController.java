@@ -21,5 +21,15 @@ public class GameController {
     public List<GameMinDto> findAll(){
         return gameService.findAll();
     }
-    
+
+    // @RequestMapping(value = "/games")
+    // public String teste(){
+    //     return "Olá! Estou testando o Spring Boot!";
+    // }
+
+    // @RequestMapping(value = "/games2")
+    // public String teste2(){
+    //     return "Outro teste para o SB!";
+    // }
+
 }
